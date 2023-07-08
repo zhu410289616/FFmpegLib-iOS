@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FFmpeg-iOS'
-  s.version          = '2.6.2'
+  s.version          = '4.3.1'
   s.summary          = '一个FFmpeg-iOS的私有库'
   s.description      = <<-DESC
   一个FFmpeg-iOS的私有库，方便集成
@@ -19,11 +19,10 @@ Pod::Spec.new do |s|
   s.public_header_files = 'FFmpeg-iOS/include/**/*.h'
   s.header_mappings_dir = 'FFmpeg-iOS/include'
   
-  s.libraries = 'bz2', 'iconv', 'z', 'avcodec', 'avdevice', 'avfilter', 'avformat', 'avutil', 'swresample', 'swscale'
-  s.frameworks = 'AudioToolbox', 'CoreMedia', 'VideoToolbox', 'AVFoundation'
+  s.libraries = 'bz2', 'iconv', 'z'
 
   s.xcconfig = {
-    'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/FFmpeg-iOS/FFmpeg-iOS/include"'
+    'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/FFmpeg-iOS/include"'
   }
 
 end
