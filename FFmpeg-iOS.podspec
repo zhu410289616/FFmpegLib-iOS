@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'FFmpeg-iOS'
-  s.version          = '2.6.2'
+  s.version          = '4.3.1'
   s.summary          = '一个FFmpeg-iOS的私有库'
   s.description      = <<-DESC
   一个FFmpeg-iOS的私有库，方便集成
