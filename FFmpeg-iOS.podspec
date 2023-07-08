@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
   s.public_header_files = 'FFmpeg-iOS/include/**/*.h'
   s.header_mappings_dir = 'FFmpeg-iOS/include'
   
-  s.libraries = 'bz2', 'iconv', 'z', 'avcodec', 'avdevice', 'avfilter', 'avformat', 'avutil', 'swresample', 'swscale'
+  s.libraries = 'bz2', 'iconv', 'z'
   s.frameworks = 'AudioToolbox', 'CoreMedia', 'VideoToolbox', 'AVFoundation'
 
   s.xcconfig = {
-    'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/FFmpeg-iOS/FFmpeg-iOS/include"'
+    'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/FFmpeg-iOS/include"'
   }
 
 end
