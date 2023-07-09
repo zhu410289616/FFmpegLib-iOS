@@ -50,3 +50,9 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+fdk-aac-ios/
+X264-iOS/
+
+ffmpeg-4.3.1-zip/include/**/*.h
+ffmpeg-4.3.1-zip/lib/*.a
