@@ -3,12 +3,22 @@
 # fdk-acc file name
 FDK_AAC_NAME="fdk-acc-ios-2.0.2.tar.bz2"
 
-#tar -jcvf $FDK_AAC_NAME fdk-aac-ios
+if [ $FDK_AAC_NAME ]
+then
+	echo '$FDK_AAC_NAME is exist...'
+else
+	tar -jcvf $FDK_AAC_NAME fdk-aac-ios
+fi
 
 # x264 file name
 X264_NAME="x264-iOS-20191217-2245.tar.bz2"
 
-#tar -jcvf $X264_NAME x264-iOS
+if [ $X264_NAME ]
+then
+	echo '$X264_NAME is exist...'
+else
+	tar -jcvf $X264_NAME x264-iOS
+fi
 
 # ffmpeg file name
 FFMPEG_NAME="ffmpeg-4.3.1-zip"
