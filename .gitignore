@@ -58,6 +58,6 @@ ffmpeg-4.3.1-zip/include/**/*.h
 ffmpeg-4.3.1-zip/lib/*.a
 
 
-FFmpeg-iOS/include/
-FFmpeg-iOS/lib/
+FFmpeg-iOS/include/*
+FFmpeg-iOS/lib/*
 
