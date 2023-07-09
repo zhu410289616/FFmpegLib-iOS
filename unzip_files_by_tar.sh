@@ -1,5 +1,22 @@
 #!/bin/sh
 
+# FFmpeg-iOS pod
+FFMPEG_POD="FFmpeg-iOS"
+
+if [ $FFMPEG_POD/include ]
+then
+	echo '$FFMPEG_POD/include is exist...'
+else
+	mkdir $FFMPEG_POD/include
+fi
+
+if [ $FFMPEG_POD/lib ]
+then
+	echo '$FFMPEG_POD/lib is exist...'
+else
+	mkdir $FFMPEG_POD/lib
+fi
+
 # fdk-acc file name
 FDK_AAC_NAME="fdk-acc-ios-2.0.2.tar.bz2"
 
