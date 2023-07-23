@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'AudioToolbox', 'CoreMedia', 'VideoToolbox', 'AVFoundation'
 
   s.xcconfig = {
-    'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/FFmpeg-iOS/include"'
+#    'USER_HEADER_SEARCH_PATHS' => '"${PODS_ROOT}/FFmpeg-iOS/include"'
   }
 
 end
